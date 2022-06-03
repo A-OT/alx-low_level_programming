@@ -6,16 +6,6 @@
  */
 int main(void)
 {
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		if (c != 'q' && c != 'e')
-		{
-			putchar(c);
-		}
-		c++;
-	}
-	putchar('\n');
+	printf("0123456789\n");
 	return (0);
 }
