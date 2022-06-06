@@ -1,13 +1,9 @@
-/*
- * File: 6-size.c
- */
 #include <stdio.h>
- /**
-  * main - Prints out the sizes of various data types on the computer
-  * it is compiled on.
-  *
-  * Return: Always 0.
-  */
+/**
+ * main -Entry point.
+ *
+ * Return: Always 0 (Success).
+ */
 int main(void)
 {
 	char c;
