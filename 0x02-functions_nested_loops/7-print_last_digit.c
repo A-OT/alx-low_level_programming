@@ -3,15 +3,19 @@
 /**
  * print_last_digit - Prints the last digit of a number.
  *
- *@i: the digit to find last place of.
+ *@i: the digit to find the last place of.
  *
- * Return: 0 (success).
+ * Return: Value of last digit.
  */
 
 int print_last_digit(int i)
 {
-	if (i < 0)
-		i = i * -1;
-	_putchar((i % 10) + '0');
-	return (i % 10);
+	int last_digit = i % 10;
+
+	if (last_digit < 0)
+		last_digit = last_digit * -1;
+
+	_putchar(last_digit + '0');
+
+	return (last_digit);
 }
