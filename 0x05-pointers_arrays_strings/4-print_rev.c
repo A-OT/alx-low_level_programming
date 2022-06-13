@@ -10,13 +10,17 @@
 
 void print_rev(char *s)
 {
-	int y = 0, i;
+	int fcounter = 0;
+	int i, n;
 
-	while (s[i++])
-		y++;
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		fcounter++;
+	}
 
-	for (i = y - 1; i >= 0; i--)
-		_putchar(s[i]);
-
+	for (n = (fcounter - 1); n >= 0; n--)
+	{
+		_putchar(s[n]);
+	}
 	_putchar('\n');
 }
