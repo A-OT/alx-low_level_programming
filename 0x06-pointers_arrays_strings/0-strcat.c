@@ -3,8 +3,8 @@
 /**
  * *_strcat - Function that concatenates two strings.
  *
- * @*dest: input
- * @*src: input
+ * @dest: The destination string
+ * @src: The source string
  *
  * Return: pointer to the resulting string.
  *
