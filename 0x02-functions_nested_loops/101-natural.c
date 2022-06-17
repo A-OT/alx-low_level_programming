@@ -17,3 +17,4 @@ int main(void)
 			dub += n;
 	printf("%d\n", dub);
 	return (0);
+}
