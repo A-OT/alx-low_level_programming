@@ -1,5 +1,5 @@
-#ifndef "_MAIN_H"
-#define "_MAIN_H"
+#ifndef _MAIN_H_
+#define __MAIN_H_
 
 char *_memset(char *s, char b, unsigned int n);
 
