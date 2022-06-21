@@ -13,17 +13,11 @@ void print_chessboard(char (*a)[8])
 {
 	int x, y;
 
-	x = y = 0;
-	while (x < 8)
+	for (x = 0; a[x][7]; x++)
 	{
-		y = 0;
-		while (y < 8)
-		{
+		for (y = 0; y < 8; y++)
 			_putchar(a[x][y]);
-			y++;
-		}
-		_putchar('\n');
-		x++;
-	}
 
+		_putchar('\n');
+	}
 }
