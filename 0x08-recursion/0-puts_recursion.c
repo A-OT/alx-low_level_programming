@@ -11,9 +11,16 @@
 
 void _puts_recursion(char *s)
 {
-	char *s[] = "Lonely";
+	if (*s == '\0')
+	{
+		_putchar('\n');
 
-	_putchar("I am %s here, i swear.\n", *s)
+		return;
+	}
 
-		return (0);
+	_putchar(*s);
+
+	s++;
+
+	_puts_recursion(s);
 }
