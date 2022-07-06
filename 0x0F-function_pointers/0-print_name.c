@@ -2,7 +2,7 @@
 
 /**
  * print_name - Function that prints a name.
- * 
+ *
  * @name: The name to print.
  * @f: Pointer to the function.
  *
