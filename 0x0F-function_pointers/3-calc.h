@@ -2,13 +2,13 @@
 #define CALC_H
 
 /**
- * truct op - structure of function call.
+ * struct op - structure of function call.
  *
  * @op: operator (+, -, *, /, %)
  * @f: function to call
  */
 
-typedef truct op
+typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
