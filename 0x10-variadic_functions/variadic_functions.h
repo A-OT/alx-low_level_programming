@@ -4,20 +4,6 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-/**
- * struct format_types - format types.
- * @identifier: Coversion specifier.
- * @f: function pointer. 
- */
-
-typedef struct format_types
-{
-	char *identifier;
-	void (*f)(char *separator, va_list args);
-} f_dt;
-
-
-
 int _putchar(char c);
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
