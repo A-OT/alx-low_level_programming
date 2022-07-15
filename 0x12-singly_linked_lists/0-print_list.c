@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * size_t print_list - Prints all the elements of list_t list.
+ * print_list - Prints all the elements of list_t list.
  *
  * @h: singly linked list.
  *
@@ -9,6 +9,7 @@
  */
 
 size_t print_list(const list_t *h)
+
 {
 	size_t counts;
 
