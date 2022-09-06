@@ -1,1 +1,2 @@
-0x02. C - Functions, nested loops
+
+0x18. C - Dynamic libraries
